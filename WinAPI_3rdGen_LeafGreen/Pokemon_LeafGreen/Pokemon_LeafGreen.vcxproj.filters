@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Pokemon3rdGen_Core.cpp" />
+    <ClCompile Include="BattleLevel.cpp">
+      <Filter>Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingLevel.cpp">
+      <Filter>Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldLevel.cpp">
+      <Filter>Field</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLevel1.cpp">
+      <Filter>Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Field\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="TitleActor1.cpp">
+      <Filter>Title\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="WestFieldGround.cpp">
+      <Filter>Field\WestFieldLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Field\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Field\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLevel2.cpp">
+      <Filter>Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleActor2.cpp">
+      <Filter>Title\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleActor3.cpp">
+      <Filter>Title\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLevel4.cpp">
+      <Filter>Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleActor4.cpp">
+      <Filter>Title\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLevel3.cpp">
+      <Filter>Title</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHomeDoor.cpp">
+      <Filter>Field\WestFieldLevel\PlayerHome\1F\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHome1FGround.cpp">
+      <Filter>Field\WestFieldLevel\PlayerHome\1F\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHomeDoorOut.cpp">
+      <Filter>Field\WestFieldLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHome1FStairs.cpp">
+      <Filter>Field\WestFieldLevel\PlayerHome\1F\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHome1FLevel.cpp">
+      <Filter>Field\WestFieldLevel\PlayerHome\1F</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHome2FLevel.cpp">
+      <Filter>Field\WestFieldLevel\PlayerHome\2F</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHome2FGround.cpp">
+      <Filter>Field\WestFieldLevel\PlayerHome\2F\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHome2FStairs.cpp">
+      <Filter>Field\WestFieldLevel\PlayerHome\2F\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="WestFieldLevel.cpp">
+      <Filter>Field\WestFieldLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHelper.cpp" />
+    <ClCompile Include="RivalHomeLevel.cpp">
+      <Filter>Field\WestFieldLevel\RivalHome</Filter>
+    </ClCompile>
+    <ClCompile Include="RivalHomeDoor.cpp">
+      <Filter>Field\WestFieldLevel\RivalHome\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RivalHomeGround.cpp">
+      <Filter>Field\WestFieldLevel\RivalHome\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RivalHomeDoorOut.cpp">
+      <Filter>Field\WestFieldLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBagLevel.cpp">
+      <Filter>UI\MyBag</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPokemonLevel.cpp">
+      <Filter>UI\MyPokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTrainerCardLevel.cpp">
+      <Filter>UI\MyTrainerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuUILevel.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBagBackGround.cpp">
+      <Filter>UI\MyBag\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPokemonBackGround.cpp">
+      <Filter>UI\MyPokemon\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTrainerCardBackGround.cpp">
+      <Filter>UI\MyTrainerCard\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPokemonMsgBox.cpp">
+      <Filter>UI\MyPokemon\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="PokemonHelper.cpp" />
+    <ClCompile Include="OaksLabLevel.cpp">
+      <Filter>Field\WestFieldLevel\OaksLab</Filter>
+    </ClCompile>
+    <ClCompile Include="OaksLabDoor.cpp">
+      <Filter>Field\WestFieldLevel\OaksLab\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="OaksLabGround.cpp">
+      <Filter>Field\WestFieldLevel\OaksLab\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="OaksLabDoorOut.cpp">
+      <Filter>Field\WestFieldLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BulbasaurBall.cpp">
+      <Filter>Field\WestFieldLevel\OaksLab\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="PokemonInfo.cpp" />
+    <ClCompile Include="MyPokemonSlot.cpp">
+      <Filter>UI\MyPokemon\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="PokemonStatusLevel.cpp">
+      <Filter>UI\MyPokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="CharmanderBall.cpp">
+      <Filter>Field\WestFieldLevel\OaksLab\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="SquirtleBall.cpp">
+      <Filter>Field\WestFieldLevel\OaksLab\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPokemonCancle.cpp">
+      <Filter>UI\MyPokemon\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleBackGround.cpp">
+      <Filter>Battle\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleGround.cpp">
+      <Filter>Battle\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BattlePokemonStatus.cpp">
+      <Filter>Battle\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleTextBox.cpp">
+      <Filter>Battle\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleHelper.cpp" />
+    <ClCompile Include="BattleSelectBox.cpp">
+      <Filter>Battle\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolveLevel.cpp">
+      <Filter>Battle\Evolve</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolveBackGround.cpp">
+      <Filter>Battle\Evolve\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolvePokemon.cpp">
+      <Filter>Battle\Evolve\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPokemonSelectBox.cpp">
+      <Filter>UI\MyPokemon\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>Field\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveInfo.cpp" />
+    <ClCompile Include="Mom.cpp">
+      <Filter>Field\WestFieldLevel\PlayerHome\1F\Actor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pokemon3rdGen_Core.h" />
+    <ClInclude Include="BattleLevel.h">
+      <Filter>Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingLevel.h">
+      <Filter>Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldLevel.h">
+      <Filter>Field</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLevel1.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Field\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="TitleActor1.h">
+      <Filter>Title\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="WestFieldGround.h">
+      <Filter>Field\WestFieldLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Field\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Field\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLevel2.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleActor2.h">
+      <Filter>Title\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLevel3.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleActor3.h">
+      <Filter>Title\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLevel4.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleActor4.h">
+      <Filter>Title\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHomeDoor.h">
+      <Filter>Field\WestFieldLevel\PlayerHome\1F\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHome1FGround.h">
+      <Filter>Field\WestFieldLevel\PlayerHome\1F\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHomeDoorOut.h">
+      <Filter>Field\WestFieldLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHome1FStairs.h">
+      <Filter>Field\WestFieldLevel\PlayerHome\1F\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHome1FLevel.h">
+      <Filter>Field\WestFieldLevel\PlayerHome\1F</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHome2FLevel.h">
+      <Filter>Field\WestFieldLevel\PlayerHome\2F</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHome2FGround.h">
+      <Filter>Field\WestFieldLevel\PlayerHome\2F\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHome2FStairs.h">
+      <Filter>Field\WestFieldLevel\PlayerHome\2F\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="WestFieldLevel.h">
+      <Filter>Field\WestFieldLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHelper.h" />
+    <ClInclude Include="RivalHomeLevel.h">
+      <Filter>Field\WestFieldLevel\RivalHome</Filter>
+    </ClInclude>
+    <ClInclude Include="RivalHomeDoor.h">
+      <Filter>Field\WestFieldLevel\RivalHome\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RivalHomeGround.h">
+      <Filter>Field\WestFieldLevel\RivalHome\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RivalHomeDoorOut.h">
+      <Filter>Field\WestFieldLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBagLevel.h">
+      <Filter>UI\MyBag</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPokemonLevel.h">
+      <Filter>UI\MyPokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTrainerCardLevel.h">
+      <Filter>UI\MyTrainerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuUILevel.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBagBackGround.h">
+      <Filter>UI\MyBag\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPokemonBackGround.h">
+      <Filter>UI\MyPokemon\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTrainerCardBackGround.h">
+      <Filter>UI\MyTrainerCard\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPokemonMsgBox.h">
+      <Filter>UI\MyPokemon\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PokemonHelper.h" />
+    <ClInclude Include="OaksLabLevel.h">
+      <Filter>Field\WestFieldLevel\OaksLab</Filter>
+    </ClInclude>
+    <ClInclude Include="OaksLabDoor.h">
+      <Filter>Field\WestFieldLevel\OaksLab\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="OaksLabGround.h">
+      <Filter>Field\WestFieldLevel\OaksLab\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="OaksLabDoorOut.h">
+      <Filter>Field\WestFieldLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BulbasaurBall.h">
+      <Filter>Field\WestFieldLevel\OaksLab\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PokemonInfo.h" />
+    <ClInclude Include="MyPokemonSlot.h">
+      <Filter>UI\MyPokemon\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PokemonStatusLevel.h">
+      <Filter>UI\MyPokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="CharmanderBall.h">
+      <Filter>Field\WestFieldLevel\OaksLab\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SquirtleBall.h">
+      <Filter>Field\WestFieldLevel\OaksLab\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPokemonCancle.h">
+      <Filter>UI\MyPokemon\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleBackGround.h">
+      <Filter>Battle\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleGround.h">
+      <Filter>Battle\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BattlePokemonStatus.h">
+      <Filter>Battle\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleTextBox.h">
+      <Filter>Battle\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleHelper.h" />
+    <ClInclude Include="BattleSelectBox.h">
+      <Filter>Battle\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolveLevel.h">
+      <Filter>Battle\Evolve</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolveBackGround.h">
+      <Filter>Battle\Evolve\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolvePokemon.h">
+      <Filter>Battle\Evolve\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPokemonSelectBox.h">
+      <Filter>UI\MyPokemon\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>Field\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveInfo.h" />
+    <ClInclude Include="Mom.h">
+      <Filter>Field\WestFieldLevel\PlayerHome\1F\Actor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Field">
+      <UniqueIdentifier>{b247fbe1-6d37-41a0-8def-5b5214fa5ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Title">
+      <UniqueIdentifier>{845b9e6d-473d-4fb7-ac0c-243b75105d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ending">
+      <UniqueIdentifier>{5ad4cdad-2aa9-4ff1-b62a-cfe6f5d82393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battle">
+      <UniqueIdentifier>{bda51325-540e-4bac-a929-ada0dbdd4966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\Actor">
+      <UniqueIdentifier>{4b574258-7b27-44e2-9df0-2e49580e5543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ending\Actor">
+      <UniqueIdentifier>{e551c22a-6082-4e7d-a763-4ad37f42b0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battle\Actor">
+      <UniqueIdentifier>{f1ccbb1f-ada8-4f85-82a9-8bb5d2cb5542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Title\Actor">
+      <UniqueIdentifier>{bf9a5d7a-1cdd-4683-92c8-c8e764bc60f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\WestFieldLevel">
+      <UniqueIdentifier>{b7c8026b-f0a3-48f9-8b39-35ed8c18abf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\WestFieldLevel\Actor">
+      <UniqueIdentifier>{80937f5a-dbab-45ca-8dac-075693d0cb9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\WestFieldLevel\PlayerHome">
+      <UniqueIdentifier>{4fac5fa3-1691-4ebd-aae0-40944344860b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\WestFieldLevel\PlayerHome\1F">
+      <UniqueIdentifier>{24931602-1856-48fe-adf5-93e0565837e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\WestFieldLevel\PlayerHome\2F">
+      <UniqueIdentifier>{e74648dc-f2f0-4431-9566-add4bd26f416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\WestFieldLevel\PlayerHome\1F\Actor">
+      <UniqueIdentifier>{c8a965c9-e353-4283-820f-2c3d8eaca706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\WestFieldLevel\PlayerHome\2F\Actor">
+      <UniqueIdentifier>{d58b9173-6688-42aa-a20d-62ee5b195385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\WestFieldLevel\RivalHome">
+      <UniqueIdentifier>{f10dfd58-2a99-45b3-9e0b-533b0504e4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\WestFieldLevel\RivalHome\Actor">
+      <UniqueIdentifier>{1e318e42-07aa-4ca6-b65a-d94529bf298e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{45285810-1d44-432d-829c-2f3b6fcd0217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MyPokemon">
+      <UniqueIdentifier>{fa535e64-3b16-45a6-8192-e1302c83989b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MyPokemon\Actor">
+      <UniqueIdentifier>{5660ebd2-9ef6-44b3-a51e-25114992e521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MyTrainerCard">
+      <UniqueIdentifier>{ea533161-d918-4f1b-bebc-13c8204789fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MyTrainerCard\Actor">
+      <UniqueIdentifier>{f8e60cab-1695-423e-a057-39199ec74bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor">
+      <UniqueIdentifier>{b50314a4-2b4e-4fe8-98d5-7acf2cf59994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MyBag">
+      <UniqueIdentifier>{418df48e-3876-4c4e-81cc-4815ffaa76fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MyBag\Actor">
+      <UniqueIdentifier>{92832e0f-00d3-45b9-a074-c7c70ad6497d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\WestFieldLevel\OaksLab">
+      <UniqueIdentifier>{62207da0-2601-4bb9-b438-e89b101a0c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\WestFieldLevel\OaksLab\Actor">
+      <UniqueIdentifier>{908b8550-3bf8-4484-b628-94704695383b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battle\Evolve">
+      <UniqueIdentifier>{d55216e4-528c-45ee-865e-fba2f56e12c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battle\Evolve\Actor">
+      <UniqueIdentifier>{c5df2c57-03df-4906-ad47-33c21e6a63aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
