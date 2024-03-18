@@ -89,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="ThirdParty\FMOD\Release\fmod.dll">
+      <Filter>ThirdParty\FMOD\Release</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="ThirdParty\FMOD\Debug\fmodL.dll">
@@ -96,9 +99,6 @@
     </CopyFileToFolders>
     <CopyFileToFolders Include="ThirdParty\FMOD\Debug\fmodL_vc.lib">
       <Filter>ThirdParty\FMOD\Debug</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="ThirdParty\FMOD\Release\fmod.dll">
-      <Filter>ThirdParty\FMOD\Release</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="ThirdParty\FMOD\Release\fmod_vc.lib">
       <Filter>ThirdParty\FMOD\Release</Filter>
