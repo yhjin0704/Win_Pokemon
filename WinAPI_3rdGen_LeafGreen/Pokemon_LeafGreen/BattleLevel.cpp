@@ -254,8 +254,17 @@ void UBattleLevel::Tick(float _DeltaTime)
 		Delay -= _DeltaTime;
 		if (0 >= Delay)
 		{
-			EnemyPokemon.PlayerPokemon = true;
-			BattleEntry.push_back(EnemyPokemon);
+			if (6 > BattleEntry.size())
+			{
+				EnemyPokemon.PlayerPokemon = true;
+				BattleEntry.push_back(EnemyPokemon);
+			}
+			else
+			{
+				EnemyPokemon.PlayerPokemon = true;
+				dynamic_cast<Pokemon3rdGen_Core*>(GEngine)->GetBox().push_back(EnemyPokemon);
+
+			}
 
 			IsDelay = false;
 			Delay = 1.5f;

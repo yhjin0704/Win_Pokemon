@@ -39,6 +39,11 @@ public:
 		return dynamic_cast<Pokemon3rdGen_Core*>(GEngine)->Entry;
 	}
 
+	static std::list<PokemonInfo> GetBox()
+	{
+		return dynamic_cast<Pokemon3rdGen_Core*>(GEngine)->Box;
+	}
+
 	static void SetEntry(std::list<PokemonInfo> _Entry)
 	{
 		dynamic_cast<Pokemon3rdGen_Core*>(GEngine)->Entry = _Entry;
