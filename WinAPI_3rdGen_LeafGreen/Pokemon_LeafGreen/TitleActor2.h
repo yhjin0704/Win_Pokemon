@@ -30,8 +30,6 @@ private:
 	std::list<UEngineFile>::iterator TitleIntro2StartIter;
 	std::list<UEngineFile>::iterator TitleIntro2EndIter;
 
-	//std::string_view TitleIntro2PrevFileName = "";
-
 	UImageRenderer* TitleIntroRen2 = nullptr;
 };
 

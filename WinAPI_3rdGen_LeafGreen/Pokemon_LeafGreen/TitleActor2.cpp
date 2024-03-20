@@ -52,6 +52,7 @@ void ATitleActor2::Tick(float _DeltaTime)
 		Time += _DeltaTime;
 		if (Time >= FrameTime)
 		{
+			UEngineResourcesManager::GetInst().UnloadImg(TitleIntroRen2->GetImage()->GetName());
 			UEngineFile& File = (*TitleIntro2StartIter);
 			UEngineResourcesManager::GetInst().LoadImg(File.GetFullPath());
 			TitleIntroRen2->SetImage(File.GetFileName());
@@ -64,6 +65,7 @@ void ATitleActor2::Tick(float _DeltaTime)
 		{
 			StartCheck = 0;
 			TitleIntroRen2->ActiveOff();
+			UEngineResourcesManager::GetInst().UnloadImg(TitleIntroRen2->GetImage()->GetName());
 			GEngine->ChangeLevel("TitleLevel3");
 		}
 
@@ -71,6 +73,7 @@ void ATitleActor2::Tick(float _DeltaTime)
 		{
 			StartCheck = 0;
 			TitleIntroRen2->ActiveOff();
+			UEngineResourcesManager::GetInst().UnloadImg(TitleIntroRen2->GetImage()->GetName());
 			GEngine->ChangeLevel("TitleLevel3");
 		}
 	}

@@ -1,5 +1,6 @@
 #pragma once
 #include <EngineCore\Level.h>
+#include "TitleActor2.h"
 
 class UTitleLevel2 : public ULevel
 {
@@ -21,6 +22,6 @@ protected:
 	void LevelEnd(ULevel* _NextLevel) override;
 
 private:
-
+	ATitleActor2* TitleActor;
 };
 

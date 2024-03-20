@@ -52,22 +52,28 @@ void ATitleActor3::Tick(float _DeltaTime)
 		Time += _DeltaTime;
 		if (Time >= FrameTime)
 		{
+			UEngineResourcesManager::GetInst().UnloadImg(TitleIntroRen3->GetImage()->GetName());
 			UEngineFile& File = (*TitleIntro3StartIter);
 			UEngineResourcesManager::GetInst().LoadImg(File.GetFullPath());
 			TitleIntroRen3->SetImage(File.GetFileName());
 			++TitleIntro3StartIter;
+
 			Time = _DeltaTime - FrameTime;
 		}
 
 		if (TitleIntro3StartIter == TitleIntro3EndIter)
 		{
 			StartCheck = 0;
+			TitleIntroRen3->ActiveOff();
+			UEngineResourcesManager::GetInst().UnloadImg(TitleIntroRen3->GetImage()->GetName());
 			GEngine->ChangeLevel("TitleLevel4");
 		}
 
 		if (UEngineInput::IsAnykeyDown())
 		{
 			StartCheck = 0;
+			TitleIntroRen3->ActiveOff();
+			UEngineResourcesManager::GetInst().UnloadImg(TitleIntroRen3->GetImage()->GetName());
 			GEngine->ChangeLevel("TitleLevel4");
 		}
 	}

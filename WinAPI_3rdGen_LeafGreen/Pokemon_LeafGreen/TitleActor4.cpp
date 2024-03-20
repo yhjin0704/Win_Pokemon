@@ -52,6 +52,7 @@ void ATitleActor4::Tick(float _DeltaTime)
 		Time += _DeltaTime;
 		if (Time >= FrameTime)
 		{
+			UEngineResourcesManager::GetInst().UnloadImg(TitleIntroRen4->GetImage()->GetName());
 			UEngineFile& File = (*TitleIntro4StartIter);
 			UEngineResourcesManager::GetInst().LoadImg(File.GetFullPath());
 			TitleIntroRen4->SetImage(File.GetFileName());
@@ -62,12 +63,16 @@ void ATitleActor4::Tick(float _DeltaTime)
 		if (TitleIntro4StartIter == TitleIntro4EndIter)
 		{
 			StartCheck = 0;
-			GEngine->ChangeLevel("PlayerHome2FLevel");
+			TitleIntroRen4->ActiveOff();
+			UEngineResourcesManager::GetInst().UnloadImg(TitleIntroRen4->GetImage()->GetName());
+			GEngine->ChangeLevel("TitleLevel1");
 		}
 
 		if (UEngineInput::IsAnykeyDown())
 		{
 			StartCheck = 0;
+			TitleIntroRen4->ActiveOff();
+			UEngineResourcesManager::GetInst().UnloadImg(TitleIntroRen4->GetImage()->GetName());
 			GEngine->ChangeLevel("PlayerHome2FLevel");
 		}
 	}
